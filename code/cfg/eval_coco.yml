@@ -1,7 +1,7 @@
 CONFIG_NAME: 'attn2'
 
 DATASET_NAME: 'coco'
-DATA_DIR: '../data/coco'
+DATA_DIR: '/Users/sakethsai/Desktop/GIT_Home/High_Parallel/Project/AttnGANfork/data/coco'
 GPU_ID: 3
 WORKERS: 1
 
@@ -15,7 +15,7 @@ TRAIN:
     NET_G: '../models/coco_AttnGAN2.pth'
     B_NET_D: False
     BATCH_SIZE: 100
-    NET_E: '../DAMSMencoders/coco/text_encoder100.pth'
+    NET_E: '/Users/sakethsai/Desktop/GIT_Home/High_Parallel/Project/AttnGANfork/DAMSMencoders/coco/text_encoder100.pth'
 
 
 GAN:
